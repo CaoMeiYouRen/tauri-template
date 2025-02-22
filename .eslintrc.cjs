@@ -5,5 +5,6 @@ module.exports = {
     ],
     rules: {
         'vue/require-name-property': [0],
+        '@typescript-eslint/ban-types': [1],
     },
 }
