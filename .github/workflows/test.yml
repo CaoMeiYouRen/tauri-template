@@ -1,6 +1,8 @@
 name: Test
 on:
   push:
+    branches:
+      - master
   pull_request:
   workflow_dispatch:
 jobs:
@@ -28,9 +30,11 @@ jobs:
         uses: swatinem/rust-cache@v2
         with:
           workspaces: "./src-tauri -> target"
+          shared-key: "tauri-${{ matrix.os }}" # 添加缓存键以提高命中率
       - run: pnpm i --frozen-lockfile
       - run: pnpm run lint
-      - run: pnpm run build
+      - name: Frontend Build
+        run: pnpm run build
       - name: Install dependencies (ubuntu only)
         if: matrix.os == 'ubuntu-latest' # This must match the platform value defined above.
         run: |
