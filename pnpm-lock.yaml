@@ -31,8 +31,8 @@ importers:
         specifier: ^9.34.0
         version: 9.34.0
       eslint-config-cmyr:
-        specifier: 2.0.0
-        version: 2.0.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint-plugin-vue@10.4.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint@9.34.0)(vue-eslint-parser@9.4.3(eslint@9.34.0)))(eslint@9.34.0)(typescript@5.9.2)
+        specifier: 2.0.1
+        version: 2.0.1(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint-plugin-vue@10.4.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint@9.34.0)(vue-eslint-parser@9.4.3(eslint@9.34.0)))(eslint@9.34.0)(typescript@5.9.2)
       eslint-plugin-vue:
         specifier: ^10.4.0
         version: 10.4.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint@9.34.0)(vue-eslint-parser@9.4.3(eslint@9.34.0))
@@ -497,8 +497,8 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@stylistic/eslint-plugin@5.2.3':
-    resolution: {integrity: sha512-oY7GVkJGVMI5benlBDCaRrSC1qPasafyv5dOBLLv5MTilMGnErKhO6ziEfodDDIZbo5QxPUNW360VudJOFODMw==}
+  '@stylistic/eslint-plugin@5.3.1':
+    resolution: {integrity: sha512-Ykums1VYonM0TgkD0VteVq9mrlO2FhF48MDJnPyv3MktIB2ydtuhlO0AfWm7xnW1kyf5bjOqA6xc7JjviuVTxg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=9.0.0'
@@ -932,8 +932,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-cmyr@2.0.0:
-    resolution: {integrity: sha512-j42VCfKDQD2QN3dN8WK4w9sYNXIMr2eMuz9JHUPsT5HKBCSdB6oFb67VSevsCt5D/8Wx14vpMJwzWDjHo7bgGg==}
+  eslint-config-cmyr@2.0.1:
+    resolution: {integrity: sha512-HMov1Y+eOxHNsVQwbH2xnfA/pJTDjb4k9R8KMF3o69FmrixI0Ms/vY9SldphpRo8JAoyhbSZPGdwO6JeK1H5mg==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: '>=9'
@@ -2087,7 +2087,7 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@stylistic/eslint-plugin@5.2.3(eslint@9.34.0)':
+  '@stylistic/eslint-plugin@5.3.1(eslint@9.34.0)':
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.34.0)
       '@typescript-eslint/types': 8.41.0
@@ -2658,10 +2658,10 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-cmyr@2.0.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint-plugin-vue@10.4.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint@9.34.0)(vue-eslint-parser@9.4.3(eslint@9.34.0)))(eslint@9.34.0)(typescript@5.9.2):
+  eslint-config-cmyr@2.0.1(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint-plugin-vue@10.4.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint@9.34.0)(vue-eslint-parser@9.4.3(eslint@9.34.0)))(eslint@9.34.0)(typescript@5.9.2):
     dependencies:
       '@eslint/js': 9.34.0
-      '@stylistic/eslint-plugin': 5.2.3(eslint@9.34.0)
+      '@stylistic/eslint-plugin': 5.3.1(eslint@9.34.0)
       eslint: 9.34.0
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.41.0(eslint@9.34.0)(typescript@5.9.2))(eslint@9.34.0)
       globals: 16.3.0
