@@ -22,7 +22,7 @@
     "eslint": "^9.36.0",
     "eslint-config-cmyr": "2.0.1",
     "eslint-plugin-vue": "^10.5.0",
-    "sass": "^1.93.0",
+    "sass": "^1.93.1",
     "typescript": "~5.9.2",
     "vite": "^7.1.7",
     "vite-tsconfig-paths": "^5.1.3",
