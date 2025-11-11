@@ -49,20 +49,3 @@ jobs:
       - name: Build on macOS
         if: matrix.os == 'macos-latest'
         run: pnpm tauri build
-
-  auto-merge:
-    needs: test
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-    if: |
-      github.actor == 'dependabot[bot]' &&
-      github.event_name == 'pull_request' &&
-      contains(github.event.pull_request.labels.*.name, 'dependencies')
-    steps:
-      - uses: fastify/github-action-merge-dependabot@v3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          target: major
-          merge-method: rebase
