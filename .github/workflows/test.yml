@@ -87,6 +87,12 @@ jobs:
         with:
           distribution: "temurin"
           java-version: "21"
+      - name: Setup NDK
+        uses: nttld/setup-ndk@v1
+        id: setup-ndk
+        with:
+          ndk-version: r25b
+          local-cache: true
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
         with:
@@ -94,7 +100,7 @@ jobs:
           log-accepted-android-sdk-licenses: false
           cmdline-tools-version: "${{ env.ANDROID_SDK_VERSION }}"
           packages: |
-            tools platform-tools ndk
+            tools platform-tools
       - run: pnpm i --frozen-lockfile
       - name: Build Android APK
         run: pnpm tauri android build --apk
