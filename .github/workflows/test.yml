@@ -103,7 +103,7 @@ jobs:
             tools platform-tools
       - run: pnpm i --frozen-lockfile
       - name: Build Android APK
-        run: pnpm tauri android build --apk
+        run: pnpm tauri android build --apk true
       # - name: Upload APK artifact
       #   uses: actions/upload-artifact@v4
       #   with:
