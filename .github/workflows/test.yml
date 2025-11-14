@@ -91,7 +91,7 @@ jobs:
         uses: nttld/setup-ndk@v1
         id: setup-ndk
         with:
-          ndk-version: r25b
+          ndk-version: r27d
           local-cache: true
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
