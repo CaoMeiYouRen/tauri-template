@@ -54,6 +54,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
+      ANDROID_SDK_VERSION: "16.0"
       ANDROID_API_LEVEL: "36"
       ANDROID_NDK_VERSION: "27.2.12479018"
     steps:
@@ -89,7 +90,7 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
         with:
-          cmdline-tools-version: "11076708"
+          cmdline-tools-version: "${{ env.ANDROID_SDK_VERSION }}"
           packages: |
             platforms;android-${{ env.ANDROID_API_LEVEL }}
             build-tools;36.0.0
