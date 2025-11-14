@@ -94,9 +94,7 @@ jobs:
           log-accepted-android-sdk-licenses: false
           cmdline-tools-version: "${{ env.ANDROID_SDK_VERSION }}"
           packages: |
-            platforms;android-${{ env.ANDROID_API_LEVEL }}
-            build-tools;36.0.0
-            ndk;${{ env.ANDROID_NDK_VERSION }}
+            tools platform-tools platforms build-tools ndk
       - run: pnpm i --frozen-lockfile
       - name: Build Android APK
         run: pnpm tauri android build --apk
