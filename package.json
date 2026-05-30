@@ -27,13 +27,5 @@
     "vite": "^8.0.10",
     "vite-tsconfig-paths": "^6.1.1",
     "vue-tsc": "^3.2.8"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ],
-    "overrides": {
-      "js-yaml": "^4.1.1"
-    }
   }
 }

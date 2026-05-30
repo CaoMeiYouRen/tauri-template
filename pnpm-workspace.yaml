@@ -1,0 +1,11 @@
+packages:
+  - .
+
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+
+overrides:
+  js-yaml: ^4.1.1
+
+strictPeerDependencies: false
