@@ -19,7 +19,7 @@
     "@tauri-apps/cli": "^2.11.1",
     "@vitejs/plugin-vue": "^6.0.6",
     "cross-env": "^10.1.0",
-    "eslint": "^9.39.2",
+    "eslint": "^10.4.0",
     "eslint-config-cmyr": "2.3.0",
     "eslint-plugin-vue": "^10.9.1",
     "sass": "^1.99.0",
