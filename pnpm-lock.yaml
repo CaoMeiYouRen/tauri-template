@@ -31,7 +31,7 @@ importers:
         version: 2.11.4
       '@vitejs/plugin-vue':
         specifier: ^6.0.8
-        version: 6.0.8(vite@8.3.0(sass@1.104.0))(vue@3.5.42(typescript@5.9.3))
+        version: 6.0.8(vite@8.3.0(sass@1.104.1))(vue@3.5.42(typescript@5.9.3))
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
@@ -45,17 +45,17 @@ importers:
         specifier: ^10.11.0
         version: 10.11.0(@stylistic/eslint-plugin@5.10.0(eslint@10.10.0))(@typescript-eslint/parser@8.62.0(eslint@10.10.0)(typescript@5.9.3))(eslint@10.10.0)(vue-eslint-parser@10.4.1(eslint@10.10.0))
       sass:
-        specifier: ^1.104.0
-        version: 1.104.0
+        specifier: ^1.104.1
+        version: 1.104.1
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
       vite:
         specifier: ^8.3.0
-        version: 8.3.0(sass@1.104.0)
+        version: 8.3.0(sass@1.104.1)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@5.9.3)(vite@8.3.0(sass@1.104.0))
+        version: 6.1.1(typescript@5.9.3)(vite@8.3.0(sass@1.104.1))
       vue-tsc:
         specifier: ^3.3.11
         version: 3.3.11(typescript@5.9.3)
@@ -1373,8 +1373,8 @@ packages:
     resolution: {integrity: sha512-x/+Cz4YrimQxQccJf5mKEbIa1NzeCRNI5Ecl/ekmlYaampdNLPalVyIcCZNNH3MvmqBugV5TMYZXv0ljslUlaw==}
     engines: {node: '>= 0.4'}
 
-  sass@1.104.0:
-    resolution: {integrity: sha512-btHMApW2bgolvClhRW8AlQJzgI9lUB3pPSofBQQT+E46GWvf9o0TVQ13SYv5riWZVFyPN+JNz3TKW9XhBlc10w==}
+  sass@1.104.1:
+    resolution: {integrity: sha512-yDA+1aIG3EHgN4V/BvuhCvu61FF6hEd4e+9DxikUm9U0CAGuvdIZ/UYy7qbOxjhbbWQraoyLlMuzdRGOSV5Bmw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -1980,10 +1980,10 @@ snapshots:
       '@typescript-eslint/types': 8.62.0
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-vue@6.0.8(vite@8.3.0(sass@1.104.0))(vue@3.5.42(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.8(vite@8.3.0(sass@1.104.1))(vue@3.5.42(typescript@5.9.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.0(sass@1.104.0)
+      vite: 8.3.0(sass@1.104.1)
       vue: 3.5.42(typescript@5.9.3)
 
   '@volar/language-core@2.4.28':
@@ -3032,7 +3032,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.2.1
 
-  sass@1.104.0:
+  sass@1.104.1:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
@@ -3218,17 +3218,17 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@8.3.0(sass@1.104.0)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@8.3.0(sass@1.104.1)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
-      vite: 8.3.0(sass@1.104.0)
+      vite: 8.3.0(sass@1.104.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@8.3.0(sass@1.104.0):
+  vite@8.3.0(sass@1.104.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -3237,7 +3237,7 @@ snapshots:
       tinyglobby: 0.2.17
     optionalDependencies:
       fsevents: 2.3.3
-      sass: 1.104.0
+      sass: 1.104.1
 
   vscode-uri@3.1.0: {}
 
