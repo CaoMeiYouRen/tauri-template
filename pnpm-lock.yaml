@@ -31,7 +31,7 @@ importers:
         version: 2.12.1
       '@vitejs/plugin-vue':
         specifier: ^6.0.9
-        version: 6.0.9(vite@8.3.1(sass@1.105.1))(vue@3.5.43(typescript@5.9.3))
+        version: 6.0.9(vite@8.3.2(sass@1.105.1))(vue@3.5.43(typescript@5.9.3))
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
@@ -51,11 +51,11 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       vite:
-        specifier: ^8.3.1
-        version: 8.3.1(sass@1.105.1)
+        specifier: ^8.3.2
+        version: 8.3.2(sass@1.105.1)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@5.9.3)(vite@8.3.1(sass@1.105.1))
+        version: 6.1.1(typescript@5.9.3)(vite@8.3.2(sass@1.105.1))
       vue-tsc:
         specifier: ^3.3.11
         version: 3.3.11(typescript@5.9.3)
@@ -1527,8 +1527,8 @@ packages:
     peerDependencies:
       vite: '*'
 
-  vite@8.3.1:
-    resolution: {integrity: sha512-/bvH9E9tmCXRGp2uXY3WbOldqpTwFkbha/8ANaEQ6VkxhH60KyqLwgZq6lG2y+4uT55x9+9eUHMpQ7uGnOCKjA==}
+  vite@8.3.2:
+    resolution: {integrity: sha512-SQr1x6W5vVSbROg7vsyXIaxK9b0G7zsT68acdWWRmnBUsgDieLCRG+Rep9WdZgcposvv/GSnr4GUUBqB3vXq6w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1985,10 +1985,10 @@ snapshots:
       '@typescript-eslint/types': 8.62.0
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-vue@6.0.9(vite@8.3.1(sass@1.105.1))(vue@3.5.43(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.9(vite@8.3.2(sass@1.105.1))(vue@3.5.43(typescript@5.9.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.1(sass@1.105.1)
+      vite: 8.3.2(sass@1.105.1)
       vue: 3.5.43(typescript@5.9.3)
 
   '@volar/language-core@2.4.28':
@@ -3225,17 +3225,17 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@8.3.1(sass@1.105.1)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@8.3.2(sass@1.105.1)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
-      vite: 8.3.1(sass@1.105.1)
+      vite: 8.3.2(sass@1.105.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@8.3.1(sass@1.105.1):
+  vite@8.3.2(sass@1.105.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
