@@ -518,6 +518,11 @@ packages:
 
   '@volar/typescript@2.4.28':
     resolution: {integrity: sha512-Ja6yvWrbis2QtN4ClAKreeUZPVYMARDYZl9LMEv1iQ1QdepB6wn0jTRxA9MftYmYa4DQ4k/DaSZpFPUfxl8giw==}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   '@vue/compiler-core@3.5.41':
     resolution: {integrity: sha512-q0Xtv/F9w2YO/7htQhtiL+Ev2WCJbe5N2hc+XfgyKkEKqWpSxknmT8QOuGdEKNdjPq0c3F7rNpFkTo3Kfrm7pg==}
@@ -1423,8 +1428,8 @@ packages:
     resolution: {integrity: sha512-6x6dK6zJdpTzF4sQeNYxwtvBzf6Eg4GtlesS94HOvTudUeyK2WXAaIfmDgsyslYrRBeFIlsi54AYsFGUuhmvrQ==}
     engines: {node: '>= 0.4'}
 
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
   stop-iteration-iterator@1.1.0:
@@ -1992,11 +1997,13 @@ snapshots:
 
   '@volar/source-map@2.4.28': {}
 
-  '@volar/typescript@2.4.28':
+  '@volar/typescript@2.4.28(typescript@5.9.3)':
     dependencies:
       '@volar/language-core': 2.4.28
       path-browserify: 1.0.1
       vscode-uri: 3.1.0
+    optionalDependencies:
+      typescript: 5.9.3
 
   '@vue/compiler-core@3.5.41':
     dependencies:
@@ -2004,7 +2011,7 @@ snapshots:
       '@vue/shared': 3.5.41
       entities: 7.0.1
       estree-walker: 2.0.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-core@3.5.43':
     dependencies:
@@ -2012,7 +2019,7 @@ snapshots:
       '@vue/shared': 3.5.43
       entities: 7.0.1
       estree-walker: 2.0.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-dom@3.5.41':
     dependencies:
@@ -2034,7 +2041,7 @@ snapshots:
       estree-walker: 2.0.2
       magic-string: 0.30.21
       postcss: 8.5.28
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-ssr@3.5.43':
     dependencies:
@@ -2951,7 +2958,7 @@ snapshots:
     dependencies:
       nanoid: 3.3.19
       picocolors: 1.1.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   prelude-ls@1.2.1: {}
 
@@ -3036,7 +3043,7 @@ snapshots:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
     optionalDependencies:
       '@parcel/watcher': 2.6.0
 
@@ -3100,7 +3107,7 @@ snapshots:
       side-channel-map: 1.0.1
       side-channel-weakmap: 1.0.2
 
-  source-map-js@1.2.1: {}
+  source-map-js@1.2.2: {}
 
   stop-iteration-iterator@1.1.0:
     dependencies:
@@ -3255,7 +3262,7 @@ snapshots:
 
   vue-tsc@3.3.11(typescript@5.9.3):
     dependencies:
-      '@volar/typescript': 2.4.28
+      '@volar/typescript': 2.4.28(typescript@5.9.3)
       '@vue/language-core': 3.3.11
       typescript: 5.9.3
 
